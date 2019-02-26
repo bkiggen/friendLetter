@@ -34,7 +34,7 @@ namespace FriendLetter
 
             app.Run(async (context) =>
             {
-                await context.Response.WriteAsync("Hello Wsdforld!");
+                await context.Response.WriteAsync("This page does not exist!");
             });
 
         }
